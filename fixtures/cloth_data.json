@@ -1,0 +1,146 @@
+[
+  {
+    "model": "product.category",
+    "pk": 1,
+    "fields": {
+      "name": "Men",
+      "description": "Men clothing collection"
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 2,
+    "fields": {
+      "name": "Women",
+      "description": "Women clothing collection"
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 3,
+    "fields": {
+      "name": "Kids",
+      "description": "Kids clothing collection"
+    }
+  },
+
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "name": "Men Cotton T-Shirt",
+      "description": "Premium cotton t-shirt for daily wear",
+      "price": "1200.00",
+      "stock": 150,
+      "color": "Black",
+      "size": "M",
+      "category": 1
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "name": "Men Denim Jeans",
+      "description": "Slim fit denim jeans",
+      "price": "2800.00",
+      "stock": 90,
+      "color": "Blue",
+      "size": "L",
+      "category": 1
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "name": "Men Formal Shirt",
+      "description": "Office wear formal shirt",
+      "price": "2200.00",
+      "stock": 70,
+      "color": "White",
+      "size": "M",
+      "category": 1
+    }
+  },
+
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "name": "Women Kurti",
+      "description": "Stylish cotton kurti",
+      "price": "2600.00",
+      "stock": 120,
+      "color": "Red",
+      "size": "L",
+      "category": 2
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+      "name": "Women Saree",
+      "description": "Elegant silk saree",
+      "price": "5500.00",
+      "stock": 40,
+      "color": "Green",
+      "size": "Free",
+      "category": 2
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "name": "Women Jacket",
+      "description": "Winter jacket for women",
+      "price": "4200.00",
+      "stock": 55,
+      "color": "Brown",
+      "size": "M",
+      "category": 2
+    }
+  },
+
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "name": "Kids T-Shirt",
+      "description": "Soft cotton t-shirt for kids",
+      "price": "900.00",
+      "stock": 130,
+      "color": "Yellow",
+      "size": "S",
+      "category": 3
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "name": "Kids Shorts",
+      "description": "Comfortable shorts for kids",
+      "price": "1100.00",
+      "stock": 100,
+      "color": "Blue",
+      "size": "S",
+      "category": 3
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 9,
+    "fields": {
+      "name": "Kids Hoodie",
+      "description": "Warm hoodie for kids",
+      "price": "1800.00",
+      "stock": 60,
+      "color": "Grey",
+      "size": "M",
+      "category": 3
+    }
+  }
+]
