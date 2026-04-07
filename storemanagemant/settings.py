@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     # framworks
     'rest_framework',
     # toolbar
-    'debug_toolbar',
+
     # filters
     'django_filters',
     # authenticat 
@@ -74,9 +74,7 @@ INSTALLED_APPS = [
 
 
 MIDDLEWARE = [
-    # ...
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
-    # ...
+
     # ...
     'social_django.middleware.SocialAuthExceptionMiddleware',
     # ...
