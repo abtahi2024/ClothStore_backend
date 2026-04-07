@@ -125,8 +125,8 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
 ]
 
 DJOSER = {
-    'EMAIL_FRONTEND_PROTOCOL':'http',
-    'EMAIL_FRONTEND_DOMAIN':'localhost:5173',
+    'EMAIL_FRONTEND_PROTOCOL':'https',
+    'EMAIL_FRONTEND_DOMAIN':'cloth-store-frontend-ten.vercel.app',
     'EMAIL_FRONTEND_SITE_NAME':'ClothStore',
     'PASSWORD_RESET_CONFIRM_URL': 'password/reset/confirm/{uid}/{token}',
     # 'USERNAME_RESET_CONFIRM_URL': '/username/reset/confirm/{uid}/{token}',
@@ -161,8 +161,8 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 
-BACKEND_URL =  "http://127.0.0.1:8000"
-FRONTEND_URL="http://localhost:5173"
+BACKEND_URL =  "https://cloth-store-backend-phi.vercel.app"
+FRONTEND_URL="https://cloth-store-frontend-ten.vercel.app"
 
 # SSLCOMMERZ_STORE_ID = 'phima68e538afdcefc'
 # SSLCOMMERZ_STORE_PASSWORD = 'phima68e538afdcefc@ssl'
@@ -209,8 +209,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'storemanagemant.wsgi.app'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:8000",
+    "cloth-store-frontend-ten.vercel.app",
+    "https://cloth-store-backend-phi.vercel.app",
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
