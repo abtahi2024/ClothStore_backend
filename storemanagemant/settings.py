@@ -209,8 +209,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'storemanagemant.wsgi.app'
 
 CORS_ALLOWED_ORIGINS = [
-    "cloth-store-frontend-ten.vercel.app",
+    "https://cloth-store-frontend-ten.vercel.app",
     "https://cloth-store-backend-phi.vercel.app",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
